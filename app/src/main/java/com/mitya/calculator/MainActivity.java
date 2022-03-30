@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements Keyboard.OnKeyboa
 
         char operator = operatorTextView.getText().toString().charAt(0);
 
-
         if (operator == '±') {
             if (currentText.charAt(0) == '0' || currentText.charAt(0) == '√') {
                 //Do nothing
