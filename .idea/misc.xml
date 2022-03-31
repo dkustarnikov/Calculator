@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/drawable/number_button.xml" value="0.1" />
         <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/drawable/round_button.xml" value="0.1115" />
-        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/fragment_keyboard.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main-land.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/fragment_display.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/fragment_keyboard.xml" value="0.264" />
+        <entry key="..\:/Users/mitya/AndroidStudioProjects/Calculator/app/src/main/res/layout/fragment_keyboard.xml" value="0.25" />
       </map>
     </option>
   </component>

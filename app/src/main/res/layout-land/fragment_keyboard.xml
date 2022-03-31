@@ -19,84 +19,39 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/operatorMod"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="%"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
-
-            <TextView
-                android:id="@+id/number7"
+                android:id="@+id/number1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="7"
+                android:text="1"
                 android:textAlignment="center"
                 android:textSize="34sp" />
 
             <TextView
-                android:id="@+id/number8"
+                android:id="@+id/number2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="8"
+                android:text="2"
                 android:textAlignment="center"
                 android:textSize="34sp" />
 
             <TextView
-                android:id="@+id/number9"
+                android:id="@+id/number3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="9"
+                android:text="3"
                 android:textAlignment="center"
-                android:textSize="34sp" />
-
-            <TextView
-                android:id="@+id/operatorDivide"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="÷"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/operatorSquareRoot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="√"
-                android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="34sp" />
 
             <TextView
@@ -136,103 +91,39 @@
                 android:textSize="34sp" />
 
             <TextView
-                android:id="@+id/operatorMultiplication"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="×"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/operatorCE"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="CE"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
-
-            <TextView
-                android:id="@+id/number1"
+                android:id="@+id/number7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="1"
+                android:text="7"
                 android:textAlignment="center"
                 android:textSize="34sp" />
 
             <TextView
-                android:id="@+id/number2"
+                android:id="@+id/number8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="2"
+                android:text="8"
                 android:textAlignment="center"
                 android:textSize="34sp" />
 
             <TextView
-                android:id="@+id/number3"
+                android:id="@+id/number9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/number_button"
                 android:onClick="numberClicked"
                 android:padding="7dp"
-                android:text="3"
+                android:text="9"
                 android:textAlignment="center"
-                android:textSize="34sp" />
-
-            <TextView
-                android:id="@+id/operatorMinus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="-"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/operatorC"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@drawable/round_button"
-                android:onClick="operatorClicked"
-                android:padding="8dp"
-                android:text="C"
-                android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="34sp" />
 
             <TextView
@@ -245,6 +136,64 @@
                 android:padding="7dp"
                 android:text="0"
                 android:textAlignment="center"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/operatorMod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="%"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/operatorDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="÷"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/operatorSquareRoot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="√"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/operatorMultiplication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="×"
+                android:textAlignment="center"
+                android:textColor="#000000"
                 android:textSize="34sp" />
 
             <TextView
@@ -272,6 +221,19 @@
                 android:textSize="34sp" />
 
             <TextView
+                android:id="@+id/operatorMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
                 android:id="@+id/operatorPlus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -283,6 +245,47 @@
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/operatorC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:padding="8dp"
+                android:text="C"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/operatorCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button"
+                android:onClick="operatorClicked"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="CE"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         </TableRow>
 
